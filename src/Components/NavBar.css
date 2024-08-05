@@ -1,0 +1,36 @@
+#Navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 170px;
+}
+#Navbar img{
+    height: 95px;
+    width: 90px;
+    border-radius: 50%;
+}
+.NavMenu
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:60px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+#Navconnect
+{
+    padding: 20px 40px;
+    background: linear-gradient(267deg, #c5381c, #9232e6 102%);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+#navconnect:hover
+{
+    transform: scale(1.05);
+}

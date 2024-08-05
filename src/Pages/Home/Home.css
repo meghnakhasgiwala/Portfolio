@@ -1,0 +1,21 @@
+.info
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+}
+.info img
+{
+    margin-top: 150px;
+}
+.info h1{
+    text-align: center;
+    width: 70%;
+    font-size: 100px;
+    font-weight: 600;
+}
+#name
+{
+    background-color: aquamarine;
+}
